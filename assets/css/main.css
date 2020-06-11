@@ -103,8 +103,7 @@ body {
     text-align: center;
     padding-top: 50px;
     width: 410px;
-    box-shadow: -3px 3px 1px 5px #fff;
-    padding-bottom: 26px;
+    box-shadow: -2px 4px 15px 5px grey;    padding-bottom: 26px;
 }
 
 .thanks {
@@ -155,13 +154,6 @@ footer {
     text-align: center;
     padding: 15px 3px;
 }
-    
-footer span::before {
-    content: '';
-    background: black;
-    width: 10px;
-    height: 10px;
-}
 
 .roww {
     display: flex;
@@ -169,6 +161,39 @@ footer span::before {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.terms::before {
+    content: '';
+    background: lightgreen;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-left: 3px;
+}
+
+.priv::before {
+    content: '';
+    background: lightblue;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-left: 3px;
+}
+
+.cookies::before {
+    content: '';
+    background: yellow;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 3px;
 }
 
 @media (max-width:600px) {
