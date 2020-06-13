@@ -221,6 +221,7 @@ footer {
   width: 85%;
   margin-bottom: 13px;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 .smalltext {
