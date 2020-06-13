@@ -4,6 +4,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     position: relative;
+    overflow: scroll;
 }
 
 .topnav {
@@ -132,7 +133,7 @@ body {
     padding-bottom: 65px;
 }
 
-.btn {
+.login {
     background: #252A41;
     color: #50f7fd;
     font-weight: bold;
@@ -141,7 +142,7 @@ body {
     padding: 11px;
 }
 
-.btn:hover {
+.login:hover {
     background: #50f7fd;
     color: #252A41;
 }
@@ -196,6 +197,64 @@ footer {
     margin-left: 3px;
 }
 
+.facebook {
+    font-weight: bold;
+    color: white;
+    background: #485893;
+    width: 85%;
+    padding: 11px;
+}
+
+.fab {
+    padding-right: 11px;
+    font-size: 20px;
+}
+
+.or {
+    margin-top: 20px;
+    margin-bottom: 14px
+}
+
+.textbox {
+  padding: 11px;
+  font-weight: bold;
+  width: 85%;
+  margin-bottom: 13px;
+  border: 1px solid black;
+}
+
+.smalltext {
+    text-align: left;
+    padding: 0 42px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #96979a;
+}
+
+.login2 {
+    background: #252A41;
+    color: #50f7fd;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 85%;
+    padding: 11px
+}
+
+.login2:hover {
+    background: #50f7fd;
+    color: #252A41;
+}
+
+.tandc {
+    margin-top: 20px;
+}
+
+.none2 {   
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 30px
+}
+   
+
 @media (max-width:600px) {
     .topnav input {
         display: none;
@@ -219,8 +278,13 @@ footer {
         font-size: 14px;
     }
 
-    .btn {
+    .login {
         margin-top: 20px;
+    }
+
+    .or {
+        margin-top: 10px;
+        margin-bottom: 8px;
     }
 
     .none {
@@ -246,5 +310,22 @@ footer {
 
     .roww {
         flex-direction: column;
+    }
+
+    .textbox {
+        width: 100%;
+    }
+
+    .smalltext {
+        text-align: left;
+        padding: 0 15px;
+    }
+
+    .tandc {
+        margin-top: 15px;
+    }
+
+    .none2 {
+        padding-bottom: 23px;
     }
 }
