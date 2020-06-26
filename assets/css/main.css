@@ -1,6 +1,5 @@
 body {
-    background: linear-gradient(#27CAC7, #87D87F, #C3E52A);
-    background-repeat: no-repeat;
+    background: linear-gradient(#27CAC7, #87D87F, #C3E52A) no-repeat center center fixed;
     width: 100vw;
     min-height: 100vh;
     position: relative;
